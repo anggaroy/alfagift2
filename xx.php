@@ -25,8 +25,8 @@ $deviceid2 = "\"$deviceid\"";
 echo "\n";
 echo "\n";
 echo "| Welcome to ALFAGIFT ACCOUNT GENERATOR!! \n";
-echo "| Simpel script by Arie \n";
-echo "| Wa 085782946968 \n";
+echo "| Simpel script by RedRanger \n";
+echo "| Wa Null \n";
 echo "| --------------------------- \n";
 if(file_exists("config.json")){
     $arr2 = json_decode(file_get_contents('config.json'), true);
@@ -75,7 +75,7 @@ if($status == "00"){
 }else{echo "| Gagal"; die;}
 
 otp:
-echo "| Masukan KODE OTP: ";
+echo "|  KODE OTP bosqu: ";
 $otp = trim(fgets(STDIN));
 $otp = "\"$otp\"";
 $url_verif_otp = "https://api.alfagift.id/v1/otp/verify";
@@ -115,7 +115,7 @@ if($status_create !== "00"){
     $id_ponta = $create_akun['member']['ponta']['accountCard'];
     $no_hp = $create_akun['member']['ponta']['phoneNumber'];
     echo "| Sukses daftar!!! \n";
-    echo "| Nomer hp $no_hp dan password MantapJiwa \n";
+    echo "| Nomer hp $no_hp dan password Redranger09 \n";
     echo "| Member Ponta $id_ponta \n";
     echo "| Loading voucher \n";
     sleep(4);
